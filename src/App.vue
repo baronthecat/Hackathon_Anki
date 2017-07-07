@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div class="container">
-    <h1 class="title is-1">Baron</h1>
+    <div class="">
+      <h1 class="title is-1">Baron</h1>
       <div class="columns">
         <div class="column">
           <h3 class="title is-3">Commands</h3>
@@ -12,7 +12,7 @@
                 <button class="button" id="stop_cmd" v-on:click="stop">Stop</button>
                 <button class="button" id="clear" v-on:click="clear">Clear</button>
               </div>
-              <p>Select commands</p>
+              <h5 class="title is-5">Car commands</h5>
               <div class="block">
                 <button class="button" v-on:click="forward">Go</button>
                 <button class="button" v-on:click="backward">Stop</button>
@@ -53,6 +53,7 @@ export default {
       cars: [
         {mac: "f6:c8:09:8a:81:2a", name: "Blue Car" , track: []},
         {mac: "e9:e6:2d:94:da:64", name: "Black Car", track: []},
+        {mac: "X52", name: "Truck", track: []},
       ],
     }
   },

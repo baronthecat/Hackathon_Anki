@@ -7,7 +7,7 @@
       button(@click="setStop") Halt
     div
       | lane
-      input(@change="setLane" v-model="lane" type="range" min="-68.0" max="68.0")
+      input(@change="setLane" v-model="lane" type="range" min="-136.0" max="136.0")
       button(@click="setLane") Set Lane
     div
     div
